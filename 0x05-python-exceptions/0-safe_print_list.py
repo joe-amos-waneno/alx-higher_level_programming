@@ -1,10 +1,12 @@
 #!/usr/bin/python3
+def safe_print_list(my_list=[], x=0):
+    numOfElements = 0
 
-def safe_print_integer(value):
+    for elements in range(x):
         try:
-            print("{}".format(my_list[l]), end="")
-            q += 1
+            print("{}".format(my_list[elements]), end="")
+            numOfElements += 1
         except IndexError:
             break
     print("")
-    return (q)
+    return numOfElements
