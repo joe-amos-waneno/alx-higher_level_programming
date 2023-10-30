@@ -1,6 +1,7 @@
 #!/usr/bin/python3
-"""An Empty rectangle class"""
+"""An Empty class defining a rectangle. The rectangle will be built in the next tasks"""
+
 
 class Rectangle:
-    """An Empty class defining a rectangle"""
+    """An Empty class defining a rectangle. The rectangle will be built in the next tasks"""
     pass
